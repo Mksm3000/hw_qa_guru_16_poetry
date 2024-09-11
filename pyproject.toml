@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hw-qa-guru-16-poetry"
+version = "0.1.0"
+description = ""
+authors = ["Maksim Zosimov <mizo-y@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+selene = "2.0.0rc9"
+pytest = "8.3.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.2.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
