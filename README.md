@@ -1,0 +1,1 @@
+# hw_qa_guru_16_poetry
